@@ -38,6 +38,7 @@ public class HomeController {
 		model.addAttribute("tete", "yeah");
 		model.addAttribute("habin", "yeah");
 		model.addAttribute("habin", "yeah");
+		model.addAttribute("this", "dev");
 		
 		return "home";
 	}
